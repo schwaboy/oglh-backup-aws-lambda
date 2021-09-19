@@ -88,3 +88,5 @@
   "Resource": "arn:aws:sns:us-west-1:111122223333:oglh-backup-alert-sns"
 }
 ```
+
+### Assign your Lambda function to a subnet within your VPC. Ensure that your Lighthouse instance allows TCP/443 from your subnet CIDR.
